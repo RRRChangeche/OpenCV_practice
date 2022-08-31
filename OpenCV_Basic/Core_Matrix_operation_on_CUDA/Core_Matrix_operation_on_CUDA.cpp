@@ -19,7 +19,6 @@ VideoCapture cap(0);
 
 int main(int argc, char** argv)
 {
-
     // Print GPU info
     cuda::printCudaDeviceInfo(0);
 

@@ -5,8 +5,8 @@
 #include <opencv2/dnn.hpp>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp>
-#include <iostream>
 #include <opencv2/core/cuda.hpp>
+#include "utility.h"
 
 using namespace std;
 using namespace cv;
@@ -14,8 +14,16 @@ using namespace dnn;
 using namespace cuda;
 
 int main(int, char**) {
+    // print CUDA device information
+    //printCudaDeviceInfo(0);
 
-    printCudaDeviceInfo(0);
+     /*
+     * Load and show image from the file 
+     */
+    //load_and_show_image();
 
-    cout << "Hello, world!\n";
+    /*
+    * Vediocapture
+    */
+    capture_video();
 }
