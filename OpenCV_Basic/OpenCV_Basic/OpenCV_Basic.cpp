@@ -17,13 +17,21 @@ int main(int, char**) {
     // print CUDA device information
     //printCudaDeviceInfo(0);
 
+
      /*
      * Load and show image from the file 
      */
     //load_and_show_image();
 
+
     /*
     * Vediocapture
     */
-    capture_video();
+    //capture_video();
+
+
+    /*
+    * resize the image 
+    */
+    resize_image();
 }
