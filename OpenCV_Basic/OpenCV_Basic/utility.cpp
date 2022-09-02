@@ -3,6 +3,7 @@
 
 using namespace std;
 using namespace cv;
+using namespace cv::dnn;
 
 void load_and_show_image() {
 	/*
@@ -21,7 +22,7 @@ void load_and_show_image() {
 	waitKey(0);
 }
 
-void capture_video() {
+void capture_video_from_webCam() {
 	/*
 	* Ref: https://docs.opencv.org/4.x/d8/dfe/classcv_1_1VideoCapture.html
 	* #include <opencv2/videoio.hpp>
