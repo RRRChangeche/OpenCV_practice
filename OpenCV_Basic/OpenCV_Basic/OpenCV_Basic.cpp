@@ -33,5 +33,17 @@ int main(int, char**) {
     /*
     * resize the image 
     */
-    resize_image();
+    //resize_image();
+
+
+    /*
+    * Crop image 
+    */
+    //crop_image();
+
+    /*
+    * Translate and rotation image
+    */
+    //translate_image();
+    rotate_image();
 }

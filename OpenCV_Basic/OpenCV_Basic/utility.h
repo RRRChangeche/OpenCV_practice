@@ -11,3 +11,9 @@ void load_and_show_image();
 void capture_video_from_webCam();
 
 void resize_image();
+
+void crop_image();
+
+void translate_image();
+
+void rotate_image();
