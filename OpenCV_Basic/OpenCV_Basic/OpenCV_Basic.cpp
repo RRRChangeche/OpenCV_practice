@@ -13,6 +13,17 @@ using namespace cv;
 using namespace dnn;
 using namespace cuda;
 
+/*
+* Debug mode log setting 
+* https://blog.csdn.net/benobug/article/details/117653268
+*/
+#define CLOSE_LOG
+#ifdef CLOSE_LOG
+#include <opencv2/core/utils/logger.hpp>
+utils::logging::LogLevel prelevel = utils::logging::setLogLevel(utils::logging::LOG_LEVEL_SILENT);
+#endif // CLOSE_LOG
+
+
 int main(int, char**) {
     // print CUDA device information
     //printCudaDeviceInfo(0);

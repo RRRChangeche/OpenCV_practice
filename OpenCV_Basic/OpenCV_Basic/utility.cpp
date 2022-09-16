@@ -48,7 +48,9 @@ void resize_image()
 {
 	/*
 	* Ref: https://docs.opencv.org/4.5.5/da/d54/group__imgproc__transform.html#ga47a974309e9102f5f08231edc7e7529d
+	* https://learnopencv.com/image-resizing-with-opencv/
 	* #include <opencv2/imgproc.hpp>
+	* Resizing With a Scaling Factor
 	*/
 
 	string path = "./data/dog.jpg";
@@ -129,4 +131,3 @@ void rotate_image()
 	imshow("Rotation", rotated_img);
 	waitKey(0);
 }
-
